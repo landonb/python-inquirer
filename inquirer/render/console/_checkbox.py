@@ -14,7 +14,7 @@ CTRL_LEFT_SEQ = ['\x1b[1', ';', '5', 'C']
 class Checkbox(BaseConsoleRender):
     def __init__(self, *args, **kwargs):
 #
-        import pdb;pdb.set_trace()
+#        import pdb;pdb.set_trace()
 
         super(Checkbox, self).__init__(*args, **kwargs)
         self.selection = [k for (k, v) in enumerate(self.question.choices)
